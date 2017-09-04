@@ -28,13 +28,6 @@ export class BlockWallSprite extends Phaser.Sprite {
    */
   render () {
     this.game.add.existing(this);
-    /**
-     * Phaser.Animations.add(name, generateFrameNames, frameRate, loop )
-     * name — Name ot assign the animation
-     * generateFrameNames — Phaser automatically will grab oak1 through oak3
-     * frameRate — Frame rate to play animation
-     * loop — Whether or not to loop the animation
-     */
     this.scale.setTo(this.config.scale, this.config.scale);
     this.anchor.setTo(0, 1);
   }
