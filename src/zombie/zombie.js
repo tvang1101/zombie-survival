@@ -21,7 +21,6 @@ export class Zombie extends Phaser.Sprite {
    */
   constructor ({ game = {}, health = 100, maxHealth = 100, speed = 10, player = {}, perception = 300 } = {}) {
     super(game, spawn.location.x, spawn.location.y, 'zombie');
-
     this.health = health;
     this.maxHealth = maxHealth;
     this.speed = speed;
